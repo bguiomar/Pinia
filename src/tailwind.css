@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component {
+  .router-link-active {
+    @apply font-semibold text-blue-500;
+  }
+}
+body {
+  background-image: url(../src/images/tatooine.webp);
+  cursor: url(https://cur.cursors-4u.net/others/oth-1/oth28.cur), auto !important;
+}
