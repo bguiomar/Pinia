@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between bg-gray-100 px-4 shadow">
       <div class="py-4">PiniaStore</div>
       <div>{{ numb.items }}</div>
-      <router-link></router-link>
+      <router-link to="cart"></router-link>
     </div>
   </div>
 </template>
